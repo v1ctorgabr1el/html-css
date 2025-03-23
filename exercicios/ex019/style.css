@@ -1,0 +1,28 @@
+body{
+    background-color: rgba(186, 255, 186, 0.836);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: green;
+}
+
+h2{
+    color: gray;
+}
+
+#principal{
+    color: blue;
+    text-align: center;
+    background-color: green;
+    border-radius: 6px;
+}
+
+.basico{
+    color: red;
+    font-size: 1.3em;
+}
+
+.intermediario{
+    color: blueviolet;
+}

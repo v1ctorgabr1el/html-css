@@ -1,0 +1,77 @@
+body{
+    background-color:#021E73;
+    margin: 0px;
+}
+
+header{
+    background-color: aliceblue;
+    margin: 10px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+}
+
+header > h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    background-color: #040FD9;
+    box-shadow: 6px -1px 7px 1px rgba(0, 0, 0, 0.527);
+}
+
+.links > a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.links > a:hover{
+    text-decoration: underline;
+}
+
+.links > a:active{
+    color: #4E8AD9;
+}
+
+main{
+    background-color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius:  0px 0px 20px 20px ;
+}
+
+footer{
+    background-color:#0339A6;
+    color: #4E8AD9;
+    text-align: center;
+    padding: 1px;
+}
+
+  .instagram > a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    
+}
+
+.instagram > a:hover{
+    text-decoration: underline;
+    color: #4E8AD9;
+}
+
+main{
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+}
+
+.escritor{
+    text-align: right;
+    font-size: 12px;
+}
+
+
+

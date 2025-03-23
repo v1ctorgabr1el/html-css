@@ -1,0 +1,28 @@
+body{
+    background-image: linear-gradient(to right, #014034ef, #02735E );
+}
+
+p{
+    text-align: justify;
+}
+
+main{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 3px 3px 15px  rgba(0, 0, 0, 0.459);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+
+}
+
+h1{
+    color: #038C73;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.63);
+}
+
+h2{
+    color: #36BFB1;
+}

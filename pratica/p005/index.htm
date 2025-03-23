@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Site Simples</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: #007BFF;
+            color: white;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background: white;
+        }
+        .hero h1 {
+            font-size: 32px;
+        }
+        .hero p {
+            margin: 10px 0 20px;
+            color: #555;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: #0056b3;
+        }
+        .about {
+            display: flex;
+            align-items: center;
+            padding: 50px;
+            background: #fff;
+        }
+        .about img {
+            width: 300px;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #007BFF;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Meu Site</h2>
+        <nav>
+            <a href="#hero">Início</a>
+            <a href="#about">Sobre</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+    <section id="hero" class="hero">
+        <h1>Bem-vindo ao Meu Mini Site</h1>
+        <p>Este é um site simples criado com HTML e CSS.</p>
+        <a href="#about" class="btn">Saiba Mais</a>
+    </section>
+    <section id="about" class="about">
+        <img src="https://via.placeholder.com/300" alt="Imagem de exemplo">
+        <p>Este mini site é um ótimo projeto para praticar HTML e CSS. Você pode personalizá-lo como quiser!</p>
+    </section>
+    <footer id="contact">
+        <p>&copy; 2025 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+
