@@ -9,12 +9,12 @@ html, body{
     font-family: var(--font2)
 }
 
-
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 :root{
-    --font0:"Passion One", ;
+    --font0: "Boldonse", system-ui;
     --font1:"Sriracha", cursive;
     --font2:Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -58,18 +58,42 @@ section{
     font-size: 3vw;
 }
 
+section > p{
+    padding-bottom: 3em;
+}
+
 .normal{
     background-color: lightslategray;
 }
 
 .imagem{
     background-color: lightseagreen;
+    box-shadow: inset 1px 1px 6px 0px rgba(0, 0, 0, 0.678);
+}
+
+#img01{
+    background-image: url(../imagens/background001.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#img02{
+    background-image: url(../imagens/background002.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .imagem p{
+    margin: -30px;
     padding: 6px;
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.185);
+    background-color: rgba(0, 0, 0, 0.473);
+    color: white;
+    text-shadow: 1px 1px 0px black;
 }
 
 footer{
