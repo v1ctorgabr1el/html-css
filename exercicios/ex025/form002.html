@@ -4,16 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        #senha{
+            
+        }
+    </style>
 </head>
 <body>
     <h1>teste de formularios</h1>
-    <form autocomplete="on" action="" method="post">
-        <p><label for="user">Usuario: <input type="text" name="user" id="user"></label></p>
+    <form  action="cadrastro.php" method="post" autocomplete="on">
+        <p><label for="user">Usuario: <input type="text" name="user" id="user" required maxlength="15" minlength="6" placeholder="usúario" autocomplete="username"></label></p>
 
-        <p><label for="password">Senha:</label> <input type="password" name="password" id="password"></p>
+        <p><label for="password">Senha:</label> 
+        <abbr title="digite a senha"><input id="senha" type="password" name="password" id="password" required minlength="8" maxlength="15" placeholder="senha" autocomplete="current-password new-password" ></p></abbr>
 
-        <p><label for="limpar">Limpar</label></p>
         <input type="reset">
+
+        <input type="submit">
     </form>
 </body>
 </html>
