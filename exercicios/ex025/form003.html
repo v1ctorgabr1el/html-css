@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+<body>
+    <form autocomplete="on" action="form.php" method="post">
+        <p><label for="Nome">Nome:</label>
+        <input type="text" name="nome" id="nome" required maxlength="25" minlength="15" autocomplete="name"></p>
+        
+            <p>
+                <label for="nota">Nota:</label>
+                <input type="number" name="media" id="media" min="0" max="10" step="0.1" required>
+            </p>
+
+            <p>
+                <label for="letivo">letivo</label>
+                <input type="month">
+            </p>
+
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+</body>
+</html>
